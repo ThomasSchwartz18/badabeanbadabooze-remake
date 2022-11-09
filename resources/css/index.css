@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Libre+Baskerville&display=swap');
 
 /* GLOBAL */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-150%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@keyframes slideInBottom {
+    0% {
+        transform: translateY(150%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
 * {
     /* border: 1px solid red; */
 }
@@ -10,6 +32,7 @@ body {
     /* display */
     margin: 0;
     padding: 0;
+    overflow: hidden;
 
 }
 
@@ -18,6 +41,7 @@ body {
 
     /* display */
     width: 100%;
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr .5fr 1.5fr 1fr;
 
@@ -50,7 +74,7 @@ body {
     
     /* display */
     margin-top: 10px;
-    transform: skew(15deg, -10deg);
+    animation: 2s ease-out 0s 1 slideInLeft;
     
     /* design */
     font-family: 'Island Moments', cursive;
@@ -62,7 +86,7 @@ body {
 .nav--p {
 
     /* display */
-    margin: 15px;
+    animation: 2s ease-out 0s 1 slideInLeft;
 
     /* design */
     font-family: 'Libre Baskerville', serif;
@@ -75,6 +99,17 @@ body {
     /* display */
     margin-top: 10px;
     width: 40px;
+    animation: 2s ease-out 0s 1 slideInLeft;
+
+}
+
+.logo--img {
+
+    /* display */
+    margin-bottom: 0;
+    animation: 2s ease-out 0s 1 slideInBottom;
+
+    /* design */
 
 }
 
