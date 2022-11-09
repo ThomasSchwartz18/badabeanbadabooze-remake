@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Libre+Baskerville&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Libre+Baskerville&family=Rubik+Bubbles&display=swap');
 * {
     /* border: 1px solid red; */
 }
@@ -44,6 +43,31 @@
     }
 }
 
+@keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(30px);
+    }
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ } 
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-800px);
+    }
+}
 body {
 
     /* display */
@@ -65,19 +89,13 @@ body {
 }
 
 /* grid-layout */
-.column {
-
-    /* display */
-    
-
-}
 
 
 /* NAV */
 .nav {
 
     /* display */
-    display: grid;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -91,8 +109,8 @@ body {
 .nav--title {
     
     /* display */
-    margin-top: 10px;
-    animation: 2s ease-out 0s 1 slideInLeft;
+    margin-top: 0;
+    animation: 1s ease-out 0s 1 slideInLeft;
     
     /* design */
     font-family: 'Island Moments', cursive;
@@ -101,10 +119,19 @@ body {
 
 }
 
+.column div {
+
+    /* display */
+    margin-top: 30%;
+
+    /* design */
+
+}
+
 .nav--p {
 
     /* display */
-    animation: 2s ease-out 0s 1 slideInLeft;
+    animation: 1s ease-out 0s 1 slideInLeft;
 
     /* design */
     font-family: 'Libre Baskerville', serif;
@@ -115,19 +142,54 @@ body {
 .instagram {
 
     /* display */
-    margin-top: 10px;
+    margin-top: 10%;
     width: 40px;
-    animation: 2s ease-out 0s 1 slideInLeft;
+    animation: 1s linear 0s 1 slideInLeft;
 
 }
 
 .logo--img {
 
     /* display */
-    margin-bottom: 0;
-    animation: 2s ease-out 0s 1 slideInBottom;
+    margin-top: 60%;
+    animation: 1s ease-out 0s 1 slideInBottom;
 
     /* design */
+
+}
+
+/* COLUMN2 */
+.columns2 {
+
+    /* display */
+    display: grid;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    overflow-y: visible;
+    height: 5000px;
+    
+    /* design */
+    
+}
+
+.column2 div {
+    
+    /* display */
+    animation: scrollUp 10s linear infinite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+
+    /* design */
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2.2em;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: rgb(174, 202, 255);
 
 }
 
@@ -152,6 +214,16 @@ body {
 
     /* dedsign */
     background-color: rgba(34,93,56,255);
+
+}
+
+.three--top img {
+
+    /* display */
+    width: 40%;
+    animation: bounceInDown 1s ease-in-out;
+
+    /* design */
 
 }
 
@@ -237,19 +309,19 @@ body {
     /* design */
     color: white;
     animation: rotateTextCounterClockwise 10s linear infinite;
-
+    
 }
 
 .spinner-counter-clockwise span {
-
+    
     /* display */
     position: absolute;
     left: 50%;
-    bottom: 89%;
-    font-size: 1.2em;
-    transform-origin: 0 100px;
-
+    bottom: 85%;
+    transform-origin: 0 60px;
+    
     /* design */
+    font-size: 10px;
 
 }
 
