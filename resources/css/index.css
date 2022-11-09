@@ -24,7 +24,7 @@
 }
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
@@ -67,6 +67,7 @@ body {
 
     /* design */
     background-color: rgba(180,162,105,255);
+    border-right: 2px solid black;
     
 }
 
@@ -113,5 +114,36 @@ body {
 
 }
 
-/* rgba(34,93,56,255) */
+/* COLUMN 3 */
+.column3 {
+
+    /* display */
+    display: block;
+
+    /* design */
+
+}
+
+.three--top {
+
+    /* display */
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* dedsign */
+    background-color: rgba(34,93,56,255);
+
+}
+
+.three--bottom {
+
+    /* display */
+    height: 50vh;
+
+    /* dedsign */
+    background-color: black;
+
+}
 
