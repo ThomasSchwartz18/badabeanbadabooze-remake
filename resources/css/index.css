@@ -8,6 +8,9 @@
       transform: translateX(-150%);
       opacity: 0;
     }
+    50% {
+        opacity: 0;
+    }
     100% {
       transform: translateX(0);
       opacity: 1;
@@ -106,7 +109,6 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr .5fr 1.5fr 0.75fr;
-    border: 2px solid black;
 
 }
 
@@ -428,7 +430,7 @@ body {
 .start-end--container {
 
     /* display */
-    margin-top: -220%;
+    margin-top: -300%;
 
     /* design */
 

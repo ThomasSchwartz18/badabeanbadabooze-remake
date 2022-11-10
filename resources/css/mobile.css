@@ -1,0 +1,263 @@
+@media only screen and (max-width: 991px) {
+    /* GLOBAL */
+    body {
+
+        /* display */
+        overflow: visible;
+
+    }
+    .main--container {
+
+        /* display */
+        display: block;
+
+        /* design */
+        border: none;
+
+    }
+    /* NAV */
+    .nav {
+
+        /* display */
+        height: 90%;
+        position: relative;
+        z-index: 1000;
+
+        /* design */
+        border: 2px solid black;
+
+    }
+    .column div {
+
+        /* display */
+        margin-top: 4%;
+
+    }
+    .logo--img {
+
+        /* display */
+        margin-top: 15%;
+
+        /* design */
+
+    }
+    /* COLUMN2 */
+    .column2 {
+
+        /* display */
+        position: relative;
+        z-index: -1000;
+
+        /* design */
+        border: 2px solid black;
+
+    }
+    /* COLUMN3 */
+    .column3 {
+
+        /* display */
+        position: relative;
+        margin-top: -122%;
+        z-index: 999;
+    
+    }
+    .three--top {
+
+        /* display */
+        height: 34vh;
+
+        /* design */
+        border: 2px solid black;
+
+    }
+    .three--top img {
+
+        /* display */
+        animation: none;
+        width: 310px;
+
+    }
+    /* COLUMN4 */
+    .column4 {
+
+        /* display */
+    
+        /* design */
+    
+    }
+    .start-end--container {
+
+        /* display */
+        margin-top: -100%;
+    
+        /* design */
+
+    }
+    .lsep {
+
+        /* display */
+        width: 3%;
+    
+        /* design */        
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    /* NAV */
+    .nav {
+
+        /* display */
+        height: 85%;
+
+    }
+
+    .column div {
+
+        /* display */
+        margin-top: 35%;
+
+    }
+
+    .nav--title {
+
+        /* display */
+
+        /* design */
+        font-size: 6em;
+
+    }
+
+    .instagram {
+
+        /* display */
+        margin-top: 4%;
+        width: 35px;
+
+    }
+
+    .logo--img {
+
+        /* display */
+        margin-top: 30%;
+
+        /* design */
+
+    }
+
+    .bounce {
+
+        /* display */
+        width: 55px;
+
+        /* design */
+
+    }
+
+
+    /* COLUMN3 */
+    .column3 {
+
+        /* display */
+        position: relative;
+        margin-top: -235%;
+        z-index: 999;
+
+    }
+
+    .three--top {
+
+        /* display */
+        height: 34vh;
+
+        /* design */
+        border: 2px solid black;
+
+    }
+
+    .three--top img {
+
+        /* display */
+        animation: none;
+        width: 220px;
+
+    }
+
+    /* COLUMN4 */
+    .column4 {
+
+        /* display */
+
+        /* design */
+        border: 2px solid black;
+
+    }
+
+    .column4--top {
+
+        /* display */
+        height: 30vh;
+
+    }
+
+    .start-end--container {
+
+        /* display */
+        margin-top: -300%;
+
+        /* design */
+
+    }
+
+    .lsep {
+
+        /* display */
+        width: 10%;
+    
+        /* design */        
+
+    }
+
+
+    .column4--bottom {
+
+        /* display */
+        height: 70vh;
+
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    /* NAV */
+    .column div {
+
+        /* display */
+        margin-top: 40%;
+
+    }
+
+    .logo--img {
+
+        /* display */
+        margin-top: 40%;
+
+    }
+
+    /* COLUMN3 */
+    .column3 {
+
+        /* display */
+        margin-top: -300%;
+
+    }
+
+    /* COLUMN4 */
+    .column4--top {
+
+        /* display */
+        height: 25vh;
+
+    }
+
+}
