@@ -2,7 +2,7 @@
 const text = document.querySelector('.spinner-clockwise p');
 text.innerHTML = text.innerText.split("").map(
     (char, i) =>
-    `<span style="transform:rotate(${i*14}deg">${char}</span>`
+    `<span style="transform:rotate(${i*14.5}deg">${char}</span>`
 ).join("")
 
 const text2 = document.querySelector('.spinner-counter-clockwise p');
